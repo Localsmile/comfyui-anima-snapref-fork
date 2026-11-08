@@ -34,7 +34,7 @@ SnapRef is not a regular LoRA: load it with a SnapRef node, not with LoraLoader.
 
 | node | inputs |
 |---|---|
-| **SnapRef** | up to eight pictures picked inside the node, Mode (*Character & Style* / *Character*), Strength per picture, Fidelity |
+| **SnapRef** | one or two pictures picked inside the node, Mode (*Character & Style* / *Character*), Strength per picture, Fidelity |
 | **SnapRef (Advanced)** | every setting: `mode`, `ref_in_uncond`, `strength`, `ref_caption`, `ref_guidance`, `image_2`/`image_3`, `weight_1`–`3`, `fidelity`, ... |
 
 Both go between the model loader and the sampler. Write only the scene in the prompt. See the
